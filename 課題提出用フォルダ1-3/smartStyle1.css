@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 250px;
+  }
+  .left {
+    width: 100px;
+  }
+  .right {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 150px;
+  }
+  .right {
+    float: none;
+    width: 150px;
+  }
+  .left {
+    float: none;
+    width: 150px;
+  }
+}
