@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 300px;
+  }
+  .left {
+    width: 100px;
+  }
+  .center-right {
+    width: 200px;
+  }
+  .center {
+    width: 125px;
+  }
+  .right {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 150px;
+  }
+  .left {
+    float: none;
+    width: 100%;
+  }
+  .center-right {
+    float: none;
+    width: 100%;
+  }
+  .right {
+    float: none;
+    width: 100%;
+  }
+  .center {
+    float: none;
+    width: 100%;
+  }
+
+}
